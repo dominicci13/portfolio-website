@@ -1,8 +1,25 @@
+# Dependencies / build artifacts
 node_modules/
 dist/
 build/
 .next/
+
+# Local config / secrets
 .env
 .env.local
-.DS_Store
+
+# Working artifacts
+tasks/
 .claude/
+.playwright-mcp/
+CLAUDE.md
+
+# Vector DBs / caches
+*.db
+*.rvf*
+
+# OS junk
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
